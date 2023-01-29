@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+</head>
+<body>
+{{!-- 
+    making a form and giving action to /register so that when we click on submit then our page will
+     move to /register which is our post url to save the data into our database and method = post because
+     we are sending the data and not getting the data. --}}
+    <form action="/register" method="post">
+
+        First Name : <input type = 'text' placeholder="Enter Your First Name" name = 'FirstName' value = ""><br>
+
+        Last Name : <input type = 'text' placeholder="Enter Your Last Name" name = 'LastName' value = ""><br>
+
+        Age : <input type = 'number' placeholder="Enter Your Age" name="Age" value=""> <br>
+
+        Gender : <input type= "radio" name = "gender" value = "male"> male
+                 <input type= "radio" name = "gender" value = "Female"> Female <br>
+
+        Phone Number : <input type = "number" name = "PhoneNumber" placeholder="Enter Your Phone Number" value=""> <br>
+        
+        Email : <input type = "email" placeholder = "Enter Your Email" name = 'Email' value=""> <br>
+
+        Password : <input type = 'password' placeholder="Enter Your Password" name = 'Password' value= ""> <br>
+
+        confirm Password : <input type = 'password' placeholder = "Confirm Password" name = 'ConfirmPassword' value=""> <br>
+
+     <input type="submit" value="Submit"> 
+
+
+
+
+    </form>
+</body>
+</html>

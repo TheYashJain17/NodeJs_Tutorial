@@ -1,0 +1,26 @@
+{
+  "name": "nodejs_tut",
+  "version": "1.0.0",
+  "description": "",
+  "main": "CreateServer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "nodemon practiceRestfullApi/app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "bcryptjs": "^2.4.3",
+    "colors": "^1.4.0",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "hbs": "^4.2.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongodb": "^4.12.1",
+    "mongoose": "^6.8.0",
+    "validator": "^13.7.0"
+  }
+}

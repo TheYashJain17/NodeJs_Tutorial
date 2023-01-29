@@ -1,0 +1,11 @@
+views folder is for template engine/ejs.
+
+Middlewares are the functiond which can be used only with Routes, Middlewares helps us to access the request and response and also help us to modify them. 
+
+We have to modify request and response to check some conditions like whether the user is log in or not and many more.
+
+If we try to modify routes instead of Middlewares then we have to write same code again and again but if we will modify the middleware then we have to write the code only one time,  this is benefit of modifying middleware instead of routes.
+
+For detailed Information Regarding Mongoose Check Mongoose.js File.
+
+Unique Is not a validator, It works for us a validator but still it is not a validator.

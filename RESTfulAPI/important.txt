@@ -1,0 +1,7 @@
+In this folder we have made RestFul API.
+
+we have not write comments as we have made another separate project for RestFul API.
+
+Check RestFul_API project for understanding the best of RestFul API.
+
+We have just seen how to make a restful api but for better understanding see the RestFul_API project.

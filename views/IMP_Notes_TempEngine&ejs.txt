@@ -1,0 +1,8 @@
+Information Regarding TEMPLATE ENGINE And EJS. 
+
+We use Template engine for making dynamic websites, when we only render premaking pages like entry page of a website or anything which not gonna change is known as static page.
+While there is a work where content have to be changed like opening someone's profile in that case we have to make dynamic website/page.
+So For making dynamic content we have to use template engine and in this case we gonna use 'ejs' template engine that will help us to make dynamic content/website/page.
+
+For using EJS/Template engine we always have to make a new folder and always have to give it the name views that is mandatory.
+and after creating the folder when we make a file inside that folder we always have to use .ejs extension with it. 

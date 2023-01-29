@@ -1,0 +1,6 @@
+The Major Difference between CRUD operation with mongo and CRUD APis operation with mongo is that 
+inside APIS doing CRUD is that in normal CRUD we are using functions to use mongo functionalities
+and in case of APIS we are using APIS to Perform the the functionalities of mongo.
+
+So dont confuse between normal CRUD and CRUD with APIS as it will gonna create mess for us so use 
+them patiently and kindly.

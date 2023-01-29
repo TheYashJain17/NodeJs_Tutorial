@@ -1,0 +1,11 @@
+We mainly have 4 types of APis , apart from this we have many types of APis but mainly we use only 4 type of APis
+
+GET - GET API/Method is use to get/read data from the database.
+POST - POST API/Method is use to write/insert data in the database.
+PUT - PUT API/Method is use to update the data in the database.
+DELETE - DELETE API/Method is use to delete the data in the database.
+
+With the help of APIs we can perform these tasks from our website to directly our database which is mongo in this case.
+
+With the help of post api we can also update the data like we did with the put API but the standard way of updating the data is to update the data with put API.
+
