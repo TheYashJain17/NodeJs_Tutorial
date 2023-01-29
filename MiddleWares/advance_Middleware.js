@@ -1,4 +1,4 @@
-//In this session w have read about Route Level Middleware ,This type of middleware can be applied on single route, group of routes and even on all routes.
+//In this session we have read about Route Level Middleware ,This type of middleware can be applied on single route, group of routes and even on all routes.
 
 const express = require('express');
 const path = require('path');
